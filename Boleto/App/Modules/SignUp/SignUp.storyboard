@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HankenSans-ExtraBold.ttf">
+            <string>HankenSans-ExtraBold</string>
+        </array>
+        <array key="HankenSans-Medium.ttf">
+            <string>HankenSans-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Sign Up View Controller-->
+        <scene sceneID="I6K-2r-Zbe">
+            <objects>
+                <viewController storyboardIdentifier="SignUpViewController" id="jxS-zQ-jFh" customClass="SignUpViewController" customModule="Boleto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8ne-oM-wQU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tikiti7" translatesAutoresizingMaskIntoConstraints="NO" id="fmU-Hm-CMV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boleto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drm-s5-gCd">
+                                <rect key="frame" x="128" y="47" width="119" height="47"/>
+                                <fontDescription key="fontDescription" name="HankenSans-ExtraBold" family="Hanken Sans" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bl5-d9-GeL">
+                                <rect key="frame" x="62" y="208" width="250" height="250"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="&quot;You'll never know until you go&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPM-7n-uir">
+                                        <rect key="frame" x="8" y="162" width="225" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="Xbf-51-MWF"/>
+                                            <constraint firstAttribute="width" constant="225" id="mVy-Bv-JUX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HankenSans-Medium" family="Hanken Sans" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="your ticket" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7J-HR-bHX">
+                                        <rect key="frame" x="140" y="190" width="70" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="26" id="Tiu-YY-J3N"/>
+                                            <constraint firstAttribute="width" constant="70" id="ke1-M9-fVl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HankenSans-Medium" family="Hanken Sans" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="A symbol of freedom." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rC-u6-Mcw">
+                                        <rect key="frame" x="40" y="45" width="170" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="0gI-85-dm9"/>
+                                            <constraint firstAttribute="width" constant="170" id="QoW-cl-Va0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HankenSans-Medium" family="Hanken Sans" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Book a ticket and just leave." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZS-4Q-oym">
+                                        <rect key="frame" x="15" y="112" width="220" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="26" id="h43-N2-H3m"/>
+                                            <constraint firstAttribute="width" constant="220" id="sy9-ro-BSG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HankenSans-Medium" family="Hanken Sans" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iTi-bI-CcK">
+                                        <rect key="frame" x="-8" y="-8" width="266" height="266"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="p7J-HR-bHX" secondAttribute="trailing" constant="40" id="68X-dp-wiy"/>
+                                    <constraint firstAttribute="trailing" secondItem="iTi-bI-CcK" secondAttribute="trailing" constant="-8" id="8cO-fk-3QS"/>
+                                    <constraint firstItem="p7J-HR-bHX" firstAttribute="leading" secondItem="bl5-d9-GeL" secondAttribute="leading" constant="140" id="FdO-lo-tdG"/>
+                                    <constraint firstItem="2ZS-4Q-oym" firstAttribute="centerX" secondItem="7rC-u6-Mcw" secondAttribute="centerX" id="LxP-Ko-SbC"/>
+                                    <constraint firstItem="7rC-u6-Mcw" firstAttribute="top" secondItem="bl5-d9-GeL" secondAttribute="top" constant="45" id="MaP-fM-UFj"/>
+                                    <constraint firstAttribute="bottom" secondItem="iTi-bI-CcK" secondAttribute="bottom" constant="-8" id="Rim-hC-wpl"/>
+                                    <constraint firstAttribute="width" constant="250" id="bYc-qe-gVf"/>
+                                    <constraint firstAttribute="trailing" secondItem="7rC-u6-Mcw" secondAttribute="trailing" constant="40" id="eaj-bd-Vjw"/>
+                                    <constraint firstAttribute="bottom" secondItem="p7J-HR-bHX" secondAttribute="bottom" constant="34" id="g6W-4f-LAT"/>
+                                    <constraint firstItem="iTi-bI-CcK" firstAttribute="leading" secondItem="bl5-d9-GeL" secondAttribute="leading" constant="-8" id="h20-xd-Kue"/>
+                                    <constraint firstItem="2ZS-4Q-oym" firstAttribute="centerY" secondItem="iTi-bI-CcK" secondAttribute="centerY" id="hVk-wP-u4p"/>
+                                    <constraint firstAttribute="height" constant="250" id="ic7-Ez-A3M"/>
+                                    <constraint firstAttribute="trailing" secondItem="HPM-7n-uir" secondAttribute="trailing" constant="17" id="nw9-VP-J4Z"/>
+                                    <constraint firstAttribute="bottom" secondItem="HPM-7n-uir" secondAttribute="bottom" constant="55" id="qCS-82-qlt"/>
+                                    <constraint firstItem="iTi-bI-CcK" firstAttribute="top" secondItem="bl5-d9-GeL" secondAttribute="top" constant="-8" id="zEE-Em-3pH"/>
+                                    <constraint firstItem="HPM-7n-uir" firstAttribute="leading" secondItem="bl5-d9-GeL" secondAttribute="leading" constant="8" id="zPj-I8-Jye"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="A world to see. " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nv8-th-E7E">
+                                <rect key="frame" x="128" y="290" width="118" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="r2K-vh-nVD"/>
+                                    <constraint firstAttribute="width" constant="118" id="vhU-6G-lRN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HankenSans-Medium" family="Hanken Sans" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDb-WB-xdw">
+                                <rect key="frame" x="16" y="553" width="343" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="xVg-yw-o8X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HankenSans-ExtraBold" family="Hanken Sans" pointSize="22"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickSignUp:" destination="jxS-zQ-jFh" eventType="touchUpInside" id="45V-Mc-FNb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cDt-X2-9VW" firstAttribute="trailing" secondItem="DDb-WB-xdw" secondAttribute="trailing" constant="16" id="1l8-zC-XTS"/>
+                            <constraint firstItem="bl5-d9-GeL" firstAttribute="centerY" secondItem="8ne-oM-wQU" secondAttribute="centerY" constant="-0.5" id="5U2-yN-sjv"/>
+                            <constraint firstItem="fmU-Hm-CMV" firstAttribute="bottom" secondItem="8ne-oM-wQU" secondAttribute="bottom" id="5ng-kb-cyo"/>
+                            <constraint firstItem="fmU-Hm-CMV" firstAttribute="top" secondItem="8ne-oM-wQU" secondAttribute="top" id="AMP-0y-btm"/>
+                            <constraint firstAttribute="trailing" secondItem="nv8-th-E7E" secondAttribute="trailing" constant="129" id="D2d-zC-AW6"/>
+                            <constraint firstItem="cDt-X2-9VW" firstAttribute="bottom" secondItem="DDb-WB-xdw" secondAttribute="bottom" constant="69" id="E4w-IZ-R1c"/>
+                            <constraint firstItem="nv8-th-E7E" firstAttribute="top" secondItem="7rC-u6-Mcw" secondAttribute="bottom" constant="16" id="G6Q-7I-BFn"/>
+                            <constraint firstItem="DDb-WB-xdw" firstAttribute="leading" secondItem="cDt-X2-9VW" secondAttribute="leading" constant="16" id="X5i-qO-NWR"/>
+                            <constraint firstItem="nv8-th-E7E" firstAttribute="leading" secondItem="8ne-oM-wQU" secondAttribute="leading" constant="128" id="Zhg-hi-8MK"/>
+                            <constraint firstItem="drm-s5-gCd" firstAttribute="leading" secondItem="cDt-X2-9VW" secondAttribute="leading" constant="128" id="alz-sT-wPP"/>
+                            <constraint firstItem="bl5-d9-GeL" firstAttribute="centerX" secondItem="8ne-oM-wQU" secondAttribute="centerX" constant="-0.5" id="dEB-FZ-F7t"/>
+                            <constraint firstItem="drm-s5-gCd" firstAttribute="top" secondItem="cDt-X2-9VW" secondAttribute="top" constant="47" id="dMK-zI-QdM"/>
+                            <constraint firstItem="fmU-Hm-CMV" firstAttribute="trailing" secondItem="cDt-X2-9VW" secondAttribute="trailing" id="gFf-FL-c4o"/>
+                            <constraint firstItem="fmU-Hm-CMV" firstAttribute="leading" secondItem="cDt-X2-9VW" secondAttribute="leading" id="ltp-J1-aHg"/>
+                            <constraint firstItem="cDt-X2-9VW" firstAttribute="trailing" secondItem="drm-s5-gCd" secondAttribute="trailing" constant="128" id="zrG-8p-3uw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cDt-X2-9VW"/>
+                    </view>
+                    <connections>
+                        <outlet property="animatableView" destination="iTi-bI-CcK" id="UWW-8h-vUb"/>
+                        <outlet property="boletoLabelTopConstraint" destination="dMK-zI-QdM" id="6bk-pV-c65"/>
+                        <outlet property="messageView" destination="bl5-d9-GeL" id="0BD-x6-aRj"/>
+                        <outlet property="signInBottomConstraint" destination="E4w-IZ-R1c" id="zjH-LR-f96"/>
+                        <outlet property="signUpButton" destination="DDb-WB-xdw" id="OnK-aJ-WJg"/>
+                        <outlet property="splashImageView" destination="fmU-Hm-CMV" id="17U-3E-VqW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qIA-xv-IRv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-367.19999999999999" y="98.50074962518741"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tikiti7" width="1280" height="850"/>
+    </resources>
+</document>

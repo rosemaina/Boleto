@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>869736038387-f7n2adu8e4p6qlntlbek0da3194ttksm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.869736038387-f7n2adu8e4p6qlntlbek0da3194ttksm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD2AU9Ky9qw1A2sn6kNQ_CK0n8b5mPBiLE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>869736038387</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ace.Boleto</string>
+	<key>PROJECT_ID</key>
+	<string>boleto-64dd5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>boleto-64dd5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:869736038387:ios:1d20d0ada0894fb47d1c86</string>
+	<key>DATABASE_URL</key>
+	<string>https://boleto-64dd5.firebaseio.com</string>
+</dict>
+</plist>

@@ -72,7 +72,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     @discardableResult
     private func goToSplash() -> Bool {
-        let splashVC = SignUpViewController.instantiate(fromAppStoryboard: .SignUp)
+        let splashVC = SignInViewController.instantiate(fromAppStoryboard: .SignIn)
         
         let navController = UINavigationController.init(rootViewController: splashVC)
         navController.navigationBar.isHidden = true

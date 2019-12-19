@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		070237CE4E1FED26DCDEE9CA0CE71046 /* BoletoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902B41EA4615D8F8E7DA3674179057D /* BoletoTests.swift */; };
+		073E779F08E0843F50BAEE4C /* Pods_Boleto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D4C519F79560FC4E8E9925 /* Pods_Boleto.framework */; };
+		079E2665B732B2FC267D89F7 /* Pods_BoletoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2961180D1FB72CA9998CE67D /* Pods_BoletoUITests.framework */; };
 		0B63869C6DC11D06659A7E8B416E20FE /* SchedulesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE969CFA47F6E8FD3AD7A6F81543A7C6 /* SchedulesViewModel.swift */; };
 		0CDA74145844DA032DC5E1FA345522ED /* GoogleService-Info-Dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10E814FABCC5F3F7F4B2AC56A328E2A3 /* GoogleService-Info-Dev.plist */; };
 		0ECD099437325B12D9524AB7EDF16B03 /* Montserrat-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7FF39C5F60B27E44AD4C973D09DC57F2 /* Montserrat-Italic.otf */; };
@@ -32,13 +34,12 @@
 		660B3DB70AFE6639FF64DB760B6D4975 /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F6AB66DF95E7FD91B8947BC849C0D /* FUser.swift */; };
 		6A2A87BA95D3A424CD3BC6B3C251A3FF /* ParaType - Futura PT Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EBEFE2E98B07C34A819E37ADB8529454 /* ParaType - Futura PT Bold.otf */; };
 		6AB78187DF7E792C3583314A4184F2F2 /* HankenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 720B348490FD687E8112240B66AB82C3 /* HankenSans-Light.ttf */; };
-		6AD99B31AB71C1AE3BB49F73 /* Pods_Boleto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2873F95B5A24ED7F58607A6 /* Pods_Boleto.framework */; };
 		6D6FF2D48144D06E6789FAC5579A1F5D /* HankenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C4B56032D95922470A1412AE8311B8B /* HankenSans-BoldItalic.ttf */; };
 		6E3899F579CD2649CF43EDBD4E906B07 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B21FCCA5E4B01968CF8EE7D0FB837AC /* Montserrat-SemiBold.otf */; };
 		6E6E8551196CCAA7178F7A0387CBD3A9 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA21B6B431BE773202561C10E7C48F8 /* UIColor+.swift */; };
 		7100704F43A418523CBF3D1EF3BD0450 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8FE96D9D1D15CCCDDEBB6C9B1A901 /* UIView+.swift */; };
 		73AC18C97C28DA8600C40A866A7DA5DA /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0FE93B994C46553BEA486A330F681ED /* Montserrat-Black.otf */; };
-		74B8E9AE48B5B7C3FF9F444D83206FE6 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5C3CE6E7857DC3D11F42913E258EF6 /* SignUp.storyboard */; };
+		74B8E9AE48B5B7C3FF9F444D83206FE6 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5C3CE6E7857DC3D11F42913E258EF6 /* SignIn.storyboard */; };
 		7615EB82B7C8C30079DC3C9DF9A0E25C /* SourceSansPro-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 56BDABC97D24784D793437DB846F4A31 /* SourceSansPro-ExtraLight.otf */; };
 		7A7D22A59CD3FC3FB585C6ADE0552C3D /* SourceSansPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8073B58B86B1D4F3A08D292367BC7783 /* SourceSansPro-SemiboldIt.otf */; };
 		7FFF29F0F04E6695DB0741045D1862B3 /* SourceSansVariable-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = 77A6CBEECF9500535606562C1A38F0A7 /* SourceSansVariable-Roman.otf */; };
@@ -51,7 +52,7 @@
 		895D4A5C8C65FE527E3B820E97A2FF58 /* ProgressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E357942A33F8942FE0063738B0183C35 /* ProgressButton.swift */; };
 		8977B503E4830824D6A7F55F1C96770A /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C387E2165838157847323C6B3CF05C6 /* Schedule.swift */; };
 		8ECC2E6EAAA4338BB628FCA144C36F6E /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18BC9FD98B4213C3C8678309B70C74C4 /* Montserrat-Regular.otf */; };
-		91FEC3FCAEAAE606E9B8FD5B007A7F39 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FCB9797E039CF8F36FB9A90D28728 /* SignUpViewController.swift */; };
+		91FEC3FCAEAAE606E9B8FD5B007A7F39 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FCB9797E039CF8F36FB9A90D28728 /* SignInViewController.swift */; };
 		94A2E630D908DFD860E98C729DA7B453 /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D8CD96E78BCCB78E96D482489484BB19 /* SourceSansPro-Black.otf */; };
 		9773CD46C6B9FF1C08333CAABBF63DB3 /* Schedules.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F4B708C779BB69509A445A789D3F7 /* Schedules.storyboard */; };
 		98C0F224194944E8EBE76E94D8DB656B /* BoletoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08C556A8D391BB8B066FE66E8C7FB9 /* BoletoUITests.swift */; };
@@ -69,6 +70,7 @@
 		AE59FB2AD541617C70384B893782D2C4 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DEC812D3E8914E6AA9C60ED5A9A89308 /* SourceSansPro-Bold.otf */; };
 		AEBCC42FD31B9150950E2584962FE480 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 106530EA9CF0067DF29BDDD21186FD72 /* Montserrat-Light.otf */; };
 		AFE0CBC50C2A570C02928786F1C43781 /* PasswordStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EBCDC5D1C9C87FA06C962DEEE37154 /* PasswordStrength.swift */; };
+		B503ECFF11E357944155DA90 /* Pods_BoletoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97ABFDE2DF7363E9A1954B7C /* Pods_BoletoTests.framework */; };
 		B5BF251BBB5CC24A2E068E4B59D166C4 /* BoletoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19BC3A14EDBAE24E27C0D75FD2B0D81 /* BoletoClient.swift */; };
 		B67E3C4D822DC008019E725363E9E252 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59737DAF2534B3C01D57525392FB5691 /* BaseViewModel.swift */; };
 		B7521FADF01EC3911C0F378C1EB5D46F /* ScheduleTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B662B319C10FA148DADA277EA3E01C4 /* ScheduleTripViewController.swift */; };
@@ -86,11 +88,9 @@
 		DFF04DC109BA6C2A46B38E3AE74FA936 /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 833F26588ACE2D26FE0309B5EC9DAB7D /* Montserrat-ExtraLight.otf */; };
 		E527C7DA454EB64CD710E71F9470631E /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9C965B2219F588116F282F97EC83C8F /* SourceSansPro-BlackIt.otf */; };
 		E6D066022F495B1954C12BF1C94F6089 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EB638014E430D3E8B62CA084E6AC9 /* ScheduleTableViewCell.swift */; };
-		EB97B46C44F1C049F7085801 /* Pods_BoletoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F4C94F9434EF76EDE9324F /* Pods_BoletoTests.framework */; };
 		F0F5F76149E3DFCF3FE1CB3FD62A3749 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FFDC347FAD08E3BFE834104DEA179AA /* SourceSansPro-Light.otf */; };
 		F2F4BDA68432BE2972AC64F5439131F8 /* HankenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11F6EBD7A3ACDC4569DD97C0E90306EE /* HankenSans-Medium.ttf */; };
 		F5F9E52BAB07097A7C513AD4FAE5B16D /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CF1D32EA6A420EE3EE60BD6343577 /* UIViewController+.swift */; };
-		FA4A2C304A25A6591C9936EA /* Pods_BoletoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F128C4F9D06BC72D19E542E /* Pods_BoletoUITests.framework */; };
 		FBC173A24D2DBF14070EF1DB31FFA01A /* PaymentOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFA321B582721D0372B27963F3EBEF /* PaymentOnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -118,64 +118,62 @@
 		0A23E40015A3BCCB500ED16FB65BFAAE /* HankenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankenSans-Bold.ttf"; sourceTree = "<group>"; };
 		0AA75D5C7AEECBBEFE64B58E2C44F10B /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
 		0C387E2165838157847323C6B3CF05C6 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
-		0F0FCB9797E039CF8F36FB9A90D28728 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0F0FCB9797E039CF8F36FB9A90D28728 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		106530EA9CF0067DF29BDDD21186FD72 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
 		10E814FABCC5F3F7F4B2AC56A328E2A3 /* GoogleService-Info-Dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Dev.plist"; sourceTree = "<group>"; };
 		11F6EBD7A3ACDC4569DD97C0E90306EE /* HankenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankenSans-Medium.ttf"; sourceTree = "<group>"; };
 		1537BAB62D6AA5068C8BD8F66B03E2D0 /* Montserrat-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.otf"; sourceTree = "<group>"; };
-		16421E5BCDEE7326B9752A72 /* Pods-Boleto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boleto.debug.xcconfig"; path = "Target Support Files/Pods-Boleto/Pods-Boleto.debug.xcconfig"; sourceTree = "<group>"; };
 		18280CE0ED8A1B3FB66AFA9EFFE9E4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BC9FD98B4213C3C8678309B70C74C4 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
 		18D2B8931B92AE504AFBB424A0D86E84 /* Montserrat-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.otf"; sourceTree = "<group>"; };
 		1955C0AED3FC152C48E8A70F50A17C1A /* HankenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankenSans-Regular.ttf"; sourceTree = "<group>"; };
 		1B662B319C10FA148DADA277EA3E01C4 /* ScheduleTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTripViewController.swift; sourceTree = "<group>"; };
-		1F128C4F9D06BC72D19E542E /* Pods_BoletoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoletoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EBCDC5D1C9C87FA06C962DEEE37154 /* PasswordStrength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordStrength.swift; sourceTree = "<group>"; };
+		2961180D1FB72CA9998CE67D /* Pods_BoletoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoletoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB6D2579C94614206B179F790A60B6B /* Montserrat-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.otf"; sourceTree = "<group>"; };
 		2B178446FD738F0713120DA78E10B7A4 /* BoletoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoletoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7F6AB66DF95E7FD91B8947BC849C0D /* FUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
 		3008F733201DB58FFA15F6D2D48EAABE /* ScheduleTripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTripViewModel.swift; sourceTree = "<group>"; };
 		339BEEB0C9B5CC1BFB67EA01381BCA58 /* Montserrat-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.otf"; sourceTree = "<group>"; };
-		368736C6D5CF256B7B332D9C /* Pods-BoletoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoletoTests.debug.xcconfig"; path = "Target Support Files/Pods-BoletoTests/Pods-BoletoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4488A95D25F78E2EFDEA9838FF106B1E /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		4AE94967F11656A12DED8FF1 /* Pods-Boleto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boleto.debug.xcconfig"; path = "Target Support Files/Pods-Boleto/Pods-Boleto.debug.xcconfig"; sourceTree = "<group>"; };
 		4D7CF1D32EA6A420EE3EE60BD6343577 /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		4F3F4B708C779BB69509A445A789D3F7 /* Schedules.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Schedules.storyboard; sourceTree = "<group>"; };
 		50C3F8C5238CAD440019B509 /* success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		52D4C519F79560FC4E8E9925 /* Pods_Boleto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boleto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BDABC97D24784D793437DB846F4A31 /* SourceSansPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.otf"; sourceTree = "<group>"; };
 		59737DAF2534B3C01D57525392FB5691 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		60DB05A2ED4A0770AEEDE7375F110292 /* SourceSansPro-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightIt.otf"; sourceTree = "<group>"; };
 		60E859967B17250550D7E8893878B447 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		62E5CA09C17B660E04538C510DF316E8 /* SourceSansPro-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldIt.otf"; sourceTree = "<group>"; };
 		63336F9EC9B692C567FA7B5AA37A3CF2 /* HankenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankenSans-LightItalic.ttf"; sourceTree = "<group>"; };
-		6CD319E30FB8298844BEA109 /* Pods-BoletoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoletoTests.release.xcconfig"; path = "Target Support Files/Pods-BoletoTests/Pods-BoletoTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F8EA72B8220795AEF286BB952A05712 /* ScheduleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleTableViewCell.xib; sourceTree = "<group>"; };
 		720B348490FD687E8112240B66AB82C3 /* HankenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankenSans-Light.ttf"; sourceTree = "<group>"; };
 		778962137B6BA889E2F10F716AA34820 /* Montserrat-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.otf"; sourceTree = "<group>"; };
 		77A6CBEECF9500535606562C1A38F0A7 /* SourceSansVariable-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansVariable-Roman.otf"; sourceTree = "<group>"; };
-		7A5C3CE6E7857DC3D11F42913E258EF6 /* SignUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		7A5C3CE6E7857DC3D11F42913E258EF6 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		7C4B56032D95922470A1412AE8311B8B /* HankenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		7FF39C5F60B27E44AD4C973D09DC57F2 /* Montserrat-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.otf"; sourceTree = "<group>"; };
 		8073B58B86B1D4F3A08D292367BC7783 /* SourceSansPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldIt.otf"; sourceTree = "<group>"; };
 		833F26588ACE2D26FE0309B5EC9DAB7D /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
 		8379A26F20880FE7540C993F3D46A1C0 /* Montserrat-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.otf"; sourceTree = "<group>"; };
 		8490449EA5DBA13EE3179496A32D6EAF /* SourceSansPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-It.otf"; sourceTree = "<group>"; };
+		89979888FB5D0FA53CEC95FC /* Pods-BoletoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoletoUITests.debug.xcconfig"; path = "Target Support Files/Pods-BoletoUITests/Pods-BoletoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B21FCCA5E4B01968CF8EE7D0FB837AC /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
 		8D3A3F651ABCDEF23E75A9E1C92D7C47 /* SourceSansPro-ExtraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightIt.otf"; sourceTree = "<group>"; };
 		8FFDC347FAD08E3BFE834104DEA179AA /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
 		90BC6E0689B75B3FC1E44569A2FFE8CB /* HankenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankenSans-Italic.ttf"; sourceTree = "<group>"; };
 		90E4A9ACD83098DA56671F2EE282CD25 /* BoletoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoletoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		970FC1A599BDD9C3681FAB893C3737D2 /* HankenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		97ABFDE2DF7363E9A1954B7C /* Pods_BoletoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoletoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		986E46D92B0B98815E6F44F8F661AC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BFA368A06D2DFA243228E60 /* Pods-Boleto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boleto.release.xcconfig"; path = "Target Support Files/Pods-Boleto/Pods-Boleto.release.xcconfig"; sourceTree = "<group>"; };
 		9E102B4354BEFCA839A1B5A96F69D6D1 /* MyriadPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Bold.otf"; sourceTree = "<group>"; };
 		9EE8FE96D9D1D15CCCDDEBB6C9B1A901 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		A29241455089C88519EB01325F38D9C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE6EA2FC966E77EEFA6E5F94BAEE7CF2 /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
 		AE969CFA47F6E8FD3AD7A6F81543A7C6 /* SchedulesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesViewModel.swift; sourceTree = "<group>"; };
 		B0FE93B994C46553BEA486A330F681ED /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
-		B2873F95B5A24ED7F58607A6 /* Pods_Boleto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boleto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CE16D67F6478EB55D68B8A4BCB2DB0 /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.otf"; sourceTree = "<group>"; };
-		B4F4C94F9434EF76EDE9324F /* Pods_BoletoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoletoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B782BE526FB84465F94AEBF106269BE5 /* SchedulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesViewController.swift; sourceTree = "<group>"; };
 		BF51DB1DEF7C123E9F82A7AA90F2E6C6 /* FCollectionReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
 		C03CD85587DC43B38921DB8EFE86A4A5 /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.otf"; sourceTree = "<group>"; };
@@ -189,7 +187,9 @@
 		D2AEB6310ADE1CE32B7FB112A1417D8A /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
 		D34C8248FF285703CE99734B902DE454 /* CustomTextField+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CustomTextField+.swift"; sourceTree = "<group>"; };
 		D620DE616555B886479B21B68676999E /* Montserrat-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		D76507F917B017BD5E73F98B /* Pods-Boleto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boleto.release.xcconfig"; path = "Target Support Files/Pods-Boleto/Pods-Boleto.release.xcconfig"; sourceTree = "<group>"; };
 		D7C2F360EA9558A06563ED5074A3EC71 /* UIFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFonts.swift; sourceTree = "<group>"; };
+		D854EFA54466E006EE6E08CA /* Pods-BoletoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoletoUITests.release.xcconfig"; path = "Target Support Files/Pods-BoletoUITests/Pods-BoletoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D8CD96E78BCCB78E96D482489484BB19 /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
 		DBEFA321B582721D0372B27963F3EBEF /* PaymentOnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentOnboardingViewController.swift; sourceTree = "<group>"; };
 		DE4EC6625C70E171175852A8AA5C71D4 /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
@@ -202,13 +202,13 @@
 		E4AF3520E60266E475E106FCE256CFF6 /* CountryCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodes.swift; sourceTree = "<group>"; };
 		E7177CAD86E0D6D207AD5BA00374C9E3 /* HankenSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HankenSans-MediumItalic.ttf"; sourceTree = "<group>"; };
 		EBEFE2E98B07C34A819E37ADB8529454 /* ParaType - Futura PT Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ParaType - Futura PT Bold.otf"; sourceTree = "<group>"; };
-		ECAB634ADA3652FDE2CC6907 /* Pods-BoletoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoletoUITests.release.xcconfig"; path = "Target Support Files/Pods-BoletoUITests/Pods-BoletoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EDE70304504C1A72FD0C8682EC5CEE68 /* ScheduleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleContainer.swift; sourceTree = "<group>"; };
 		F04F91A06BB919B68160009F71477C96 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
 		F902B41EA4615D8F8E7DA3674179057D /* BoletoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoletoTests.swift; sourceTree = "<group>"; };
+		F9A3AD391E4AFC4FF2829A6B /* Pods-BoletoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoletoTests.debug.xcconfig"; path = "Target Support Files/Pods-BoletoTests/Pods-BoletoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA08C556A8D391BB8B066FE66E8C7FB9 /* BoletoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoletoUITests.swift; sourceTree = "<group>"; };
 		FB4372BA9336F28E1E934E5500AFBEF4 /* Boleto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boleto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE15DA7EB3A609FC344CFC73 /* Pods-BoletoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoletoUITests.debug.xcconfig"; path = "Target Support Files/Pods-BoletoUITests/Pods-BoletoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2C024A7D3699E25911D569 /* Pods-BoletoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoletoTests.release.xcconfig"; path = "Target Support Files/Pods-BoletoTests/Pods-BoletoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,7 +216,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AD99B31AB71C1AE3BB49F73 /* Pods_Boleto.framework in Frameworks */,
+				073E779F08E0843F50BAEE4C /* Pods_Boleto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +224,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4A2C304A25A6591C9936EA /* Pods_BoletoUITests.framework in Frameworks */,
+				079E2665B732B2FC267D89F7 /* Pods_BoletoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB97B46C44F1C049F7085801 /* Pods_BoletoTests.framework in Frameworks */,
+				B503ECFF11E357944155DA90 /* Pods_BoletoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +282,16 @@
 				50C3F8C5238CAD440019B509 /* success.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C48F4B715F6F2DC4318E36C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D4C519F79560FC4E8E9925 /* Pods_Boleto.framework */,
+				97ABFDE2DF7363E9A1954B7C /* Pods_BoletoTests.framework */,
+				2961180D1FB72CA9998CE67D /* Pods_BoletoUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2F79F5AEA3E85312EC719EB53CD39943 /* BoletoTests */ = {
@@ -378,12 +388,12 @@
 		771E2DFDCDD87F25DB860784CD18C580 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				16421E5BCDEE7326B9752A72 /* Pods-Boleto.debug.xcconfig */,
-				9BFA368A06D2DFA243228E60 /* Pods-Boleto.release.xcconfig */,
-				368736C6D5CF256B7B332D9C /* Pods-BoletoTests.debug.xcconfig */,
-				6CD319E30FB8298844BEA109 /* Pods-BoletoTests.release.xcconfig */,
-				FE15DA7EB3A609FC344CFC73 /* Pods-BoletoUITests.debug.xcconfig */,
-				ECAB634ADA3652FDE2CC6907 /* Pods-BoletoUITests.release.xcconfig */,
+				4AE94967F11656A12DED8FF1 /* Pods-Boleto.debug.xcconfig */,
+				D76507F917B017BD5E73F98B /* Pods-Boleto.release.xcconfig */,
+				F9A3AD391E4AFC4FF2829A6B /* Pods-BoletoTests.debug.xcconfig */,
+				FF2C024A7D3699E25911D569 /* Pods-BoletoTests.release.xcconfig */,
+				89979888FB5D0FA53CEC95FC /* Pods-BoletoUITests.debug.xcconfig */,
+				D854EFA54466E006EE6E08CA /* Pods-BoletoUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -424,16 +434,6 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		9C6F1D2C93E6517B1BFF790E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B2873F95B5A24ED7F58607A6 /* Pods_Boleto.framework */,
-				B4F4C94F9434EF76EDE9324F /* Pods_BoletoTests.framework */,
-				1F128C4F9D06BC72D19E542E /* Pods_BoletoUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C96D7CD85E624654CBE13C2B8171EA52 /* Schedules */ = {
 			isa = PBXGroup;
 			children = (
@@ -445,13 +445,13 @@
 			path = Schedules;
 			sourceTree = "<group>";
 		};
-		D493833BF95307248D11BE2E672B85B5 /* SignUp */ = {
+		D493833BF95307248D11BE2E672B85B5 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
-				7A5C3CE6E7857DC3D11F42913E258EF6 /* SignUp.storyboard */,
-				0F0FCB9797E039CF8F36FB9A90D28728 /* SignUpViewController.swift */,
+				7A5C3CE6E7857DC3D11F42913E258EF6 /* SignIn.storyboard */,
+				0F0FCB9797E039CF8F36FB9A90D28728 /* SignInViewController.swift */,
 			);
-			path = SignUp;
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 		D8C82AC2D1D2F9CD9B49305141336F2D /* Fonts */ = {
@@ -471,7 +471,7 @@
 		E64CF5AB9175BE2C4BF94C27DB6F000E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				D493833BF95307248D11BE2E672B85B5 /* SignUp */,
+				D493833BF95307248D11BE2E672B85B5 /* SignIn */,
 				C96D7CD85E624654CBE13C2B8171EA52 /* Schedules */,
 				DBEFA321B582721D0372B27963F3EBEF /* PaymentOnboardingViewController.swift */,
 				60E859967B17250550D7E8893878B447 /* SuccessViewController.swift */,
@@ -496,7 +496,7 @@
 				7819A61DAACDE79B286D54E7018BAD80 /* BoletoUITests */,
 				771E2DFDCDD87F25DB860784CD18C580 /* Pods */,
 				12DFCB4D7E5AC9842E8BF175EDA7A65A /* Products */,
-				9C6F1D2C93E6517B1BFF790E /* Frameworks */,
+				2C48F4B715F6F2DC4318E36C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -517,12 +517,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F25E24A27C00D2147C9F19877C432AE /* Build configuration list for PBXNativeTarget "Boleto" */;
 			buildPhases = (
-				CFF466E4D6A059F5428C246F /* [CP] Check Pods Manifest.lock */,
+				DF635265E6EF28C15F337067 /* [CP] Check Pods Manifest.lock */,
 				323DC0BD00FE2B04855F5C5EE9251266 /* Sources */,
 				748C18FE45F78782E0C465AA58C0573A /* Frameworks */,
 				4E611C1D6EC19EF9C88C861DED0D7103 /* Resources */,
-				3C36F3BF5A8B101B36688233 /* [CP] Embed Pods Frameworks */,
-				7280434957739627BB96F9B1 /* [CP] Copy Pods Resources */,
+				0E28E14950D3C7C07AD8DE31 /* [CP] Embed Pods Frameworks */,
+				81BFEA17453B9F70199C4F0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -537,7 +537,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94F8AB1086361D7108017A12B9880CBA /* Build configuration list for PBXNativeTarget "BoletoTests" */;
 			buildPhases = (
-				6D831FF7A2A95EECB90535A7 /* [CP] Check Pods Manifest.lock */,
+				AE7AF2E0ADCEFB5C0A0B0CE8 /* [CP] Check Pods Manifest.lock */,
 				C37027FC627B667D5E3BC935FEAAB5EB /* Sources */,
 				CCD9437C1447B799DD30EC22D873AA3A /* Frameworks */,
 				2A9DBE41A92B7B616AE235EB8DCA458A /* Resources */,
@@ -556,7 +556,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5C9FC00CA2683F36DBB2F9983C93CE6 /* Build configuration list for PBXNativeTarget "BoletoUITests" */;
 			buildPhases = (
-				4FC5860D41B10037D772953B /* [CP] Check Pods Manifest.lock */,
+				573900D87C7D873694BEBF3F /* [CP] Check Pods Manifest.lock */,
 				2B7D86469BFECCB7F5DE61B75DBE139B /* Sources */,
 				CA69EC173BD70121FE23D04918E2D0B5 /* Frameworks */,
 				66E77506203F2F5D6BA8925A2EECB08C /* Resources */,
@@ -661,7 +661,7 @@
 				C7E93D3B4E821B2F46AB7FC5273C00F3 /* Montserrat-Thin.otf in Resources */,
 				134F36D02E18E42B56C0778E73FB4319 /* MyriadPro-Bold.otf in Resources */,
 				C04B2A365B93E92BAFCB7355A4C3E26A /* MyriadPro-Regular.otf in Resources */,
-				74B8E9AE48B5B7C3FF9F444D83206FE6 /* SignUp.storyboard in Resources */,
+				74B8E9AE48B5B7C3FF9F444D83206FE6 /* SignIn.storyboard in Resources */,
 				6A2A87BA95D3A424CD3BC6B3C251A3FF /* ParaType - Futura PT Bold.otf in Resources */,
 				84C31E0EA3AAECDA8E99E74320251AE9 /* ScheduleTableViewCell.xib in Resources */,
 				9773CD46C6B9FF1C08333CAABBF63DB3 /* Schedules.storyboard in Resources */,
@@ -692,7 +692,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3C36F3BF5A8B101B36688233 /* [CP] Embed Pods Frameworks */ = {
+		0E28E14950D3C7C07AD8DE31 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -709,7 +709,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Boleto/Pods-Boleto-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4FC5860D41B10037D772953B /* [CP] Check Pods Manifest.lock */ = {
+		573900D87C7D873694BEBF3F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -731,7 +731,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6D831FF7A2A95EECB90535A7 /* [CP] Check Pods Manifest.lock */ = {
+		81BFEA17453B9F70199C4F0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Boleto/Pods-Boleto-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Boleto/Pods-Boleto-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Boleto/Pods-Boleto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE7AF2E0ADCEFB5C0A0B0CE8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -753,24 +770,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7280434957739627BB96F9B1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Boleto/Pods-Boleto-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Boleto/Pods-Boleto-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Boleto/Pods-Boleto-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CFF466E4D6A059F5428C246F /* [CP] Check Pods Manifest.lock */ = {
+		DF635265E6EF28C15F337067 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -825,7 +825,7 @@
 				A1B028B5F2AF7DFC4EC19E519E880267 /* ScheduleTripViewModel.swift in Sources */,
 				9FC6E83C6C1D2396EDAC65BE843DC471 /* SchedulesViewController.swift in Sources */,
 				0B63869C6DC11D06659A7E8B416E20FE /* SchedulesViewModel.swift in Sources */,
-				91FEC3FCAEAAE606E9B8FD5B007A7F39 /* SignUpViewController.swift in Sources */,
+				91FEC3FCAEAAE606E9B8FD5B007A7F39 /* SignInViewController.swift in Sources */,
 				CEF4719A75C2C4AA1373A174440E205A /* SuccessViewController.swift in Sources */,
 				A82F10F271C19CD27A60188FF1B43714 /* TextField+.swift in Sources */,
 				6E6E8551196CCAA7178F7A0387CBD3A9 /* UIColor+.swift in Sources */,
@@ -874,7 +874,7 @@
 /* Begin XCBuildConfiguration section */
 		00D43B6C7ACFEA1261E88DE5E62AAC58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE15DA7EB3A609FC344CFC73 /* Pods-BoletoUITests.debug.xcconfig */;
+			baseConfigurationReference = 89979888FB5D0FA53CEC95FC /* Pods-BoletoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -956,7 +956,7 @@
 		};
 		230EA8685F6713B4952BD491AFEE1707 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECAB634ADA3652FDE2CC6907 /* Pods-BoletoUITests.release.xcconfig */;
+			baseConfigurationReference = D854EFA54466E006EE6E08CA /* Pods-BoletoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -977,7 +977,7 @@
 		};
 		41648465704EF93AA2CC3ED3A755CC13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BFA368A06D2DFA243228E60 /* Pods-Boleto.release.xcconfig */;
+			baseConfigurationReference = D76507F917B017BD5E73F98B /* Pods-Boleto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -997,7 +997,7 @@
 		};
 		A9C536E99370033BDB24FDB4B718806A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CD319E30FB8298844BEA109 /* Pods-BoletoTests.release.xcconfig */;
+			baseConfigurationReference = FF2C024A7D3699E25911D569 /* Pods-BoletoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1019,7 +1019,7 @@
 		};
 		AE457C08B2E89401B2FE8F29BA1ED535 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16421E5BCDEE7326B9752A72 /* Pods-Boleto.debug.xcconfig */;
+			baseConfigurationReference = 4AE94967F11656A12DED8FF1 /* Pods-Boleto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1094,7 +1094,7 @@
 		};
 		BCC5CC836B2351DAA078CA4A34CFD375 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 368736C6D5CF256B7B332D9C /* Pods-BoletoTests.debug.xcconfig */;
+			baseConfigurationReference = F9A3AD391E4AFC4FF2829A6B /* Pods-BoletoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -1,5 +1,5 @@
 //
-//  SignUpViewController.swift
+//  SignInViewController.swift
 //  Boleto
 //
 //  Created by Rose Maina on 15/10/2019.
@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import GoogleSignIn
 
-class SignUpViewController: UIViewController {
+class SignInViewController: UIViewController {
     
     // MARK: - Private Instance Properties
     
@@ -116,7 +116,7 @@ extension UIViewController {
     }
 }
 
-extension SignUpViewController: GIDSignInDelegate {
+extension SignInViewController: GIDSignInDelegate {
     
     // Google Sign In for User
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {

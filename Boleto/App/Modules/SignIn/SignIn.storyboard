@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,10 +16,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Sign Up View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="I6K-2r-Zbe">
             <objects>
-                <viewController storyboardIdentifier="SignUpViewController" id="jxS-zQ-jFh" customClass="SignUpViewController" customModule="Boleto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignInViewController" id="jxS-zQ-jFh" customClass="SignInViewController" customModule="Boleto" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8ne-oM-wQU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boleto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drm-s5-gCd">
-                                <rect key="frame" x="128" y="47" width="119" height="47"/>
+                                <rect key="frame" x="129" y="47" width="117" height="47"/>
                                 <fontDescription key="fontDescription" name="HankenSans-ExtraBold" family="Hanken Sans" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -117,7 +117,7 @@
                                     <constraint firstAttribute="height" constant="45" id="xVg-yw-o8X"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HankenSans-ExtraBold" family="Hanken Sans" pointSize="22"/>
-                                <state key="normal" title="Sign Up">
+                                <state key="normal" title="Sign In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -129,6 +129,7 @@
                         <constraints>
                             <constraint firstItem="cDt-X2-9VW" firstAttribute="trailing" secondItem="DDb-WB-xdw" secondAttribute="trailing" constant="16" id="1l8-zC-XTS"/>
                             <constraint firstItem="bl5-d9-GeL" firstAttribute="centerY" secondItem="8ne-oM-wQU" secondAttribute="centerY" constant="-0.5" id="5U2-yN-sjv"/>
+                            <constraint firstItem="drm-s5-gCd" firstAttribute="centerX" secondItem="8ne-oM-wQU" secondAttribute="centerX" id="5lb-eh-HJd"/>
                             <constraint firstItem="fmU-Hm-CMV" firstAttribute="bottom" secondItem="8ne-oM-wQU" secondAttribute="bottom" id="5ng-kb-cyo"/>
                             <constraint firstItem="fmU-Hm-CMV" firstAttribute="top" secondItem="8ne-oM-wQU" secondAttribute="top" id="AMP-0y-btm"/>
                             <constraint firstAttribute="trailing" secondItem="nv8-th-E7E" secondAttribute="trailing" constant="129" id="D2d-zC-AW6"/>
@@ -136,12 +137,10 @@
                             <constraint firstItem="nv8-th-E7E" firstAttribute="top" secondItem="7rC-u6-Mcw" secondAttribute="bottom" constant="16" id="G6Q-7I-BFn"/>
                             <constraint firstItem="DDb-WB-xdw" firstAttribute="leading" secondItem="cDt-X2-9VW" secondAttribute="leading" constant="16" id="X5i-qO-NWR"/>
                             <constraint firstItem="nv8-th-E7E" firstAttribute="leading" secondItem="8ne-oM-wQU" secondAttribute="leading" constant="128" id="Zhg-hi-8MK"/>
-                            <constraint firstItem="drm-s5-gCd" firstAttribute="leading" secondItem="cDt-X2-9VW" secondAttribute="leading" constant="128" id="alz-sT-wPP"/>
                             <constraint firstItem="bl5-d9-GeL" firstAttribute="centerX" secondItem="8ne-oM-wQU" secondAttribute="centerX" constant="-0.5" id="dEB-FZ-F7t"/>
                             <constraint firstItem="drm-s5-gCd" firstAttribute="top" secondItem="cDt-X2-9VW" secondAttribute="top" constant="47" id="dMK-zI-QdM"/>
                             <constraint firstItem="fmU-Hm-CMV" firstAttribute="trailing" secondItem="cDt-X2-9VW" secondAttribute="trailing" id="gFf-FL-c4o"/>
                             <constraint firstItem="fmU-Hm-CMV" firstAttribute="leading" secondItem="cDt-X2-9VW" secondAttribute="leading" id="ltp-J1-aHg"/>
-                            <constraint firstItem="cDt-X2-9VW" firstAttribute="trailing" secondItem="drm-s5-gCd" secondAttribute="trailing" constant="128" id="zrG-8p-3uw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cDt-X2-9VW"/>
                     </view>
